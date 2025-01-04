@@ -1,0 +1,1 @@
+This error occurs when using the `useEffect` hook in React Native with an asynchronous operation inside. The cleanup function within `useEffect` might not be executed correctly if the component unmounts before the asynchronous operation completes, leading to unexpected behavior or errors.
